@@ -38,12 +38,12 @@ function init() {
     },
     {
         type: 'input',
-        message: 'How do you install this? What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'What steps are required to install this project?',
         name: 'install',
       },
       {
         type: 'input',
-        message: 'How do you use this?',
+        message: 'How do you use this app?',
        name: 'usage',
       },
      {
@@ -65,6 +65,11 @@ function init() {
         type: 'input',
         message: 'What kind of license will your project have?',
         name: 'license',
+      },
+      {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
       },
   ])
   .then(response => {
@@ -117,6 +122,7 @@ function init() {
 
         > Tutorials Used
         ${response.credit2}
+        https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
         ## Tests
         
@@ -125,7 +131,9 @@ function init() {
         
         ## Questions
         
-        For more information, please contact the developer in the great mainframe with the name price.gavin@gmail.com.`, (err) => err ? console.error(err) : console.log('Your HTML page has just been created.'))
+        For more information, please contact the developer in the great mainframe hub of Git with the address [${response.github}](https://github.com/${response.github})`, 
+        (err) => 
+        err ? console.error(err) : console.log('Your README has just been created!!'))
   });
 
 

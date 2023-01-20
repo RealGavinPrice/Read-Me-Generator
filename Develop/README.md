@@ -1,12 +1,12 @@
-# dfe
+# README Generator
 
         ## Description
         
        
-        fer3. 
-        trgf. 
-        fjlf . 
-        d.
+        Motivated by love of learning and an enduring need for README files.. 
+        Trying to aid the community with an accessible README generator. 
+        DRY. 
+         Object-Oriented Programming, ES6, .
         
         
         
@@ -21,29 +21,30 @@
         
         ## Installation
         
-        df j  dlj d
+        Please review the README file currently being looked at before downloading, and you will find a livenk
         
         
         ## Usage
         
-        dfk djfkdjfk djf dl dk jrgoiwrn 
+        Open index.js in the terminal and enter "node index.js" *Please have node.js installed
         
         
         ## License
         
-        sfgk;nfsklnlfskgundefined
+        MITundefined
         
         
         ## Contributing
         
         > Collaborators
-        rgklnfglkfsn g sflgknsfg lkn glskfn
+        Emily emily@emily.ohyeah \n  Florence florence@newbaby.com George George
 
         > Third Party Assets
-        fskg nsfkg ln 
+        None
 
         > Tutorials Used
-        sfgkln lksfng 
+        https://www.markdownguide.org/cheat-sheet/ 
+        https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
         ## Tests
         
@@ -52,4 +53,4 @@
         
         ## Questions
         
-        For more information, please contact the developer in the great mainframe with the name price.gavin@gmail.com.
+        For more information, please contact the developer in the great mainframe hub of Git with the address https://github.com/RealGavinPrice.
