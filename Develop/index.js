@@ -78,7 +78,7 @@ function init() {
         // TODO: Create a function to write README file
         fs.writeFile(`README.md`, `# ${response.title}
 
-        ## Description
+ ## 📚 Description
         
        
         ${response.motivation}. 
@@ -88,31 +88,31 @@ function init() {
         
         
         
-        ## Table of Contents
+## 📂 Table of Contents
         
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [License](#license)
-        * [Contributing](#contributing)
-        * [Tests](#tests)
-        * [Questions](#questions)
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [License](#license)
+   * [Contributing](#contributing)
+   * [Tests](#tests)
+   * [Questions](#questions)
         
-        ## Installation
+## 💡 Installation
         
         ${response.install}
         
         
-        ## Usage
+## 🔧 Usage
         
         ${response.usage}
         
         
-        ## License
+## 🔐 License
         
-        ${response.license}${licenseBadge.badge}
+        ${response.license}  ${licenseBadge.badge}
         
         
-        ## Contributing
+## 🌐 Contributing
         
         > Collaborators
         ${response.credit0}
@@ -124,12 +124,12 @@ function init() {
         ${response.credit2}
         https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-        ## Tests
+## 📝 Tests
         
         This project has no tests... yet!    
         
         
-        ## Questions
+## ❔ Questions
         
         For more information, please contact the developer in the great mainframe hub of Git with the address [${response.github}](https://github.com/${response.github})`, 
         (err) => 
